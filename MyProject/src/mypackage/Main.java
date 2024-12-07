@@ -3,8 +3,8 @@ package mypackage;
 public class Main {
 	public static String reverseString(String str) {
 		StringBuilder sb = new StringBuilder(str);
-	    sb.reverse();
-	    return sb.toString();
+		sb.reverse();
+		return sb.toString();
 	}
 	public static void main(String[] args) {
 		if (args.length > 0) {
