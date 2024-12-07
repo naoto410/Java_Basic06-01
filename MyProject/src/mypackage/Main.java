@@ -16,7 +16,7 @@ public class Main {
 			    System.out.println("逆順の文字列： " + reversedString);
 			}
 		} else {
-			System.out.println("エラー：文字を入力してください。");
+			System.err.println("エラー：文字を入力してください。");
 		}
 	}
 }
